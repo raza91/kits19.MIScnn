@@ -11,8 +11,8 @@
 #-----------------------------------------------------#
 #                   Library imports                   #
 #-----------------------------------------------------#
-from keras.models import Model
-from keras.layers import Input, concatenate, Conv3D, MaxPooling3D, Conv3DTranspose
+from tensorflow.keras.models import Model
+from tenserflow.keras.layers import Input, concatenate, Conv3D, MaxPooling3D, Conv3DTranspose
 
 #-----------------------------------------------------#
 #                    Core Function                    #
