@@ -50,7 +50,7 @@ args = parser.parse_args()
 #-----------------------------------------------------#
 config = dict()
 # Dataset
-config["cases"] = list(range(0,20))
+config["cases"] = list(range(0,10))
 config["data_path"] = args.args_input           # Path to the kits19 data dir
 config["model_path"] = "model"                  # Path to the model data dir
 config["output_path"] = "predictions"           # Path to the predictions directory
